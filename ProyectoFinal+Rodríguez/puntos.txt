@@ -1,0 +1,26 @@
+Puntos a entregar: 
+
+- Objetos y Arrays. ✔️ 
+ Se ultilizan objetos (data.json) y arrays, y se los recorre (fetch de productos en main.js). 
+
+- Funciones y condiocionales ✔️
+ Se utilizan funciones y condicionales 
+
+- Generación de DOM de forma dinámica ✔️ 
+ Se crea el carrito de compras
+
+- Sintaxis avanzada ✔️
+ Utilización de operadores ternarios (cart.js line: 160)
+
+- Uso de librería ✔️
+ Uso de Sweet alert para completar la compra (cart.js)
+
+- Manejo de promesas con fetch ✔️
+ Fetch de productos (main.js)
+
+- Storage ✔️
+ Se guardan los prodctos del carrito (cuando se presiona el botón de agregar a carrito) 
+ y se lo recupera cuando se crea la tabla de cart.js 
+
+- Uso de JSON local o API externa ✔️
+ Uso de JSON local (data.json)  

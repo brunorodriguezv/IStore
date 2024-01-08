@@ -1,0 +1,46 @@
+{
+    "products" : [
+        {
+            "id" : "01",
+            "name" : "IPhone 15",
+            "price" : "U$S 1399",
+            "image" : "img/iphone15.jpg"
+        },
+        {
+            "id" : "02",
+            "name" : "IPhone 14Pro",
+            "price" : "U$S 1249",
+            "image" : "img/iphone14pro.jpg"
+        },
+        {
+            "id" : "03",
+            "name" : "IPhone 14",
+            "price" : "U$S 1189",
+            "image" : "img/iphone14.jpg"
+        },
+        {
+            "id" : "04",
+            "name" : "IPhone 13Pro",
+            "price" : "U$S 1099",
+            "image" : "img/iphone13pro.jpg"
+        },
+        {
+            "id" : "05",
+            "name" : "IPhone 13",
+            "price" : "U$S 999",
+            "image" : "img/iphone13.jpg"
+        },
+        {
+            "id" : "06",
+            "name" : "IPhone 12",
+            "price" : "U$S 759",
+            "image" : "img/iphone12.jpg"
+        },
+        {
+            "id" : "07",
+            "name" : "IPhone 11",
+            "price" : "U$S 529",
+            "image" : "img/iphone11.jpg"
+        }        
+    ]
+}

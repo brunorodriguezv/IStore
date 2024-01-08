@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+*{
+    font-family: 'DM Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* alerta de carrito vacio */
+.emptyCartAlert{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    background-color: #c9ff56;
+    padding: 20px;
+    border-radius: 20px;
+    border: solid 1px #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.emptyCartLink{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    background-color: #90c61e;
+    padding: 4px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    transition: transform 0.3s ease;
+}
+
+.emptyCartLink:hover{
+    transform: scale(1.05);
+}
+
+
+/* PAGE OVERLAY*/
+.page-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+}
+
+
+/* Logo de container */
+#logoCont {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    margin: 10px;
+}
+
+
+/* Container de container */
+#cartCont {
+    margin-top: 5em;
+    margin-left: 10em;
+}
+
+
+#cartCont th {
+    padding: 25px;
+    text-align: center;
+}
+
+
+#cartCont td {
+    text-align: center;    
+}
+
+
+/* MODAL STYLES */
+#mainModal {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    flex-direction: column;
+    background-color: #fff;
+    color: #0f0f0f;
+    width: 40%;
+    max-width: 20em;
+    min-width:15em ;
+    justify-content: center;
+    z-index: 20;
+    padding: 10px;
+    border-radius:15px ;
+}
+
+
+/* botones de aumentar y reducir cantidades */
+.quantityBtn{
+    border-radius: 40px;
+    width: 30px;
+    text-align: center;
+    border: 1.5px solid;
+}
+
+
+.quantityBtn:hover{
+    background-color: #c9ff56;
+}
+
+
+/* boton de borrar producto */
+.removeProd{
+    background-color: #fff;
+    border: transparent;
+}
+
+
+/* hover boton de borrar producto */
+.removeProd:hover {
+    color: red;
+}
+
+
+#checkoutDiv{
+    width: 20em;
+    padding: 1em;
+    border-radius: 10px;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5em 0em; 
+    transform: translateX(50%);
+}
+
+#checkoutDiv h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#shippingType{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#precioTotal{
+    margin-top: 0.5em;
+}
+
+.closeModalBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 0.5em;
+}
+
+.botonesModal{
+    border-radius: 40px;
+    text-align: center;
+    border: 1.5px solid;
+    padding: 5px;
+}
+
+.botonesModal:hover{
+    background-color: #c9ff56;
+}

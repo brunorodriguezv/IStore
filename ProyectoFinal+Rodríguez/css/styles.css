@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+*{
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* contenedor del logo */
+#logoCont{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    margin: 10px;
+}
+
+
+/* boton de carrito */
+.cartBtnCont {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* div del boton de carrito*/
+#cartBtn {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    margin: 20px;
+    padding: 8px;
+    background-color: #c9ff56;
+    border-radius: 40px;
+    border: 1px solid #000;
+    transition: transform 0.3s ease;
+}
+
+/* hover del boton de carrito */
+#cartBtn:hover {
+    transform: scale(1.1);
+}
+
+
+/* main container (container de productos)*/
+#mainContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    margin: 5em 0.5em;
+}
+
+
+/* botón de añadir al carrito de cada cart */
+.addToCart {
+    width: 80%;
+    border: solid 1px;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+
+
+.addToCart:hover {
+    transform: scale(1.05);
+    background-color: #c9ff56;
+}
+
+
+/* imágen de cada producto*/
+.productImg {
+    width: 15em;
+}
